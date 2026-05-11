@@ -43,3 +43,22 @@ The final phase involved testing the impact of masked geolocation on web deliver
 <p align="center">
   <img src="assets/cleanup-confirmation.png" width="800" alt="cleanup" />
 </p>
+
+---
+
+## Project Outcome & Key Takeaways
+The lab successfully validated the implementation of multi-layered network security within a cloud environment. By establishing a stable RDP connection across continents and layering an encrypted tunnel, the project demonstrated that geolocation masking and traffic encapsulation can be achieved without compromising administrative access or system stability.
+
+### Core Technical Competencies
+* **Cloud Infrastructure (IaaS):** Provisioning and managing virtualized compute and networking assets within Microsoft Azure.
+* **Network Security:** Configuring Network Security Groups (NSGs) for IP whitelisting and secure Remote Desktop (RDP) access.
+* **Traffic Encapsulation:** Implementing VPN tunneling to mask data center origins and override default cloud gateways.
+* **Resource Management:** Managing the full lifecycle of cloud resources, from deployment to cost-efficient decommissioning
+
+### Key Takeaways
+* **Global Deployment:** Gained hands-on experience navigating Azure’s global regions to manage latency and regional routing.
+* **Encrypted Tunnels:** Successfully executed a "tunnel-within-a-tunnel" scenario, maintaining an active RDP session while shifting public IPs.
+* **Geolocation Testing:** Observed the real-time impact of DNS redirection and localized web delivery through a Netherlands-based exit node.
+  
+
+
