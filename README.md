@@ -1,4 +1,8 @@
-# azure-vpn-traffic-tunneling
+# Azure Cloud Networking: Global Traffic Tunneling & VPN Lab
+
+<p align="center">
+  <img src="network-diagram.png" width="100%" title="VPN Network Architecture">
+</p>
 
 ## Introduction
 This lab environment was established to demonstrate the deployment of cloud-based infrastructure and the implementation of multi-layered networking tunnels. By provisioning a Virtual Machine (VM) in a distinct geographic region and subsequently layering a Virtual Private Network (VPN) within that environment, this project explores how public IP addresses are assigned, masked, and routed across global infrastructures. The objective is to validate the integrity of encrypted tunnels and observe regional DNS redirection in a controlled cloud environment.
