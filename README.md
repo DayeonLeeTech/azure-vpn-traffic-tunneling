@@ -12,10 +12,12 @@ This lab environment was established to demonstrate the deployment of cloud-base
 
 ---
 ## Part 1: Cloud Resource Provisioning
-The foundation of the lab involved establishing an isolated environment in Microsoft Azure. A dedicated Resource Group was created to act as a logical container for all networking assets. Within this container, a Windows 11 Pro instance was deployed in a South Africa data center to establish a distinct geographic baseline. Network Security Groups (NSGs) were configured to allow secure RDP access from a specific administrative IP, ensuring the instance remained protected while reachable across global boundaries.
+The foundation of the lab involved establishing an isolated environment in Microsoft Azure. A dedicated Resource Group was created to act as a logical container for all networking assets. Within this container, a Windows 11 Pro instance was deployed in a South Africa data center to establish a distinct geographic baseline. 
+* Secure Perimeter: Configured Network Security Groups (NSGs) to whitelist RDP traffic exclusively from the local host IP.
+* Connectivity Audit: Verified the baseline public IP and routing origin via the African data center through an RDP session.
 
 <p align="center">
-  <img src="assets/vm-ip-check.png" width="800" alt="My Lab Setup" />
+  <img src="assets/vm-ip-check.png" width="800" alt="vm ip check" />
 </p>
 
 ---
@@ -28,7 +30,5 @@ ProtonVPN was implemented within the virtualized environment to establish a seco
 * Evidence of Masking: Verified the success of the tunnel by monitoring real-time IP changes via external auditing sites.
 
 <p align="center">
-  <img src="assets/vpn-ip-verification.png" width="800" alt="ICMP Connectivity Test" />
-  <br>
-  <i>Figure 2: Using Wireshark to capture successful ICMP traffic, confirming a solid connection between the two nodes.</i>
+  <img src="assets/vpn-ip-verification.png" width="800" alt="verification" />
 </p>
