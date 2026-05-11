@@ -1,7 +1,7 @@
 # Azure Cloud Networking: Global Traffic Tunneling & VPN Lab
 
 <p align="center">
-  <img src="network-diagram.png" width="100%" title="VPN Network Architecture">
+  <img src="assets/network-diagram.png" width="100%" title="VPN Network Architecture">
 </p>
 
 ## Introduction
