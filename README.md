@@ -22,7 +22,7 @@ The foundation of the lab involved establishing an isolated environment in Micro
 
 ---
 
-# Part 2: VPN Tunneling & Security
+## Part 2: VPN Tunneling & Security
 ProtonVPN was implemented within the virtualized environment to establish a secondary encrypted tunnel. This configuration allows for "tunnel-within-a-tunnel" routing, effectively masking the VM's cloud-provider origin.
 * Traffic Encapsulation: Successfully routed outbound traffic from the Azure backbone through a third-party VPN exit node.
 * Geolocation Masking: Transitioned the public identity of the VM from South Africa to a third country (e.g. Netherland) to test regional delivery.
@@ -35,7 +35,7 @@ ProtonVPN was implemented within the virtualized environment to establish a seco
 
 ---
 
-# Part 3: Analysis & Decommissioning
+## Part 3: Analysis & Decommissioning
 The final phase involved testing the impact of masked geolocation on web delivery and performing a full audit of the resource lifecycle.
 * Regional Content Analysis: Validated that web services (Google, YouTube) automatically redirected to Dutch (.nl) domains and adjusted interface languages based on the new exit node.
 * Resource Lifecycle Management: Executed a full deletion of the Resource Group to purge the VM and all networking assets, ensuring zero residual costs.
