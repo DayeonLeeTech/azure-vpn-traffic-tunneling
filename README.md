@@ -38,7 +38,7 @@ ProtonVPN was implemented within the virtualized environment to establish a seco
 # Part 3: Analysis & Decommissioning
 The final phase involved testing the impact of masked geolocation on web delivery and performing a full audit of the resource lifecycle.
 * Regional Content Analysis: Validated that web services (Google, YouTube) automatically redirected to Dutch (.nl) domains and adjusted interface languages based on the new exit node.
-* Infrastructure Hygiene: Executed a full deletion of the Resource Group to purge the VM and all networking assets, ensuring zero residual costs.
+* Resource Lifecycle Management: Executed a full deletion of the Resource Group to purge the VM and all networking assets, ensuring zero residual costs.
 
 <p align="center">
   <img src="assets/cleanup-confirmation.png" width="800" alt="cleanup" />
