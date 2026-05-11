@@ -1,5 +1,11 @@
 # Azure Cloud Networking: Global Traffic Tunneling & VPN Lab
 
+![Azure](https://img.shields.io/badge/microsoft%20azure-%230089D6.svg?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![Windows 11](https://img.shields.io/badge/Windows%2011-%230078D4.svg?style=for-the-badge&logo=windows-11&logoColor=white)
+![ProtonVPN](https://img.shields.io/badge/ProtonVPN-6D4AFF?style=for-the-badge&logo=protonvpn&logoColor=white)
+![Networking](https://img.shields.io/badge/Networking-blue?style=for-the-badge&logo=icloud&logoColor=white)
+![Security](https://img.shields.io/badge/Security-green?style=for-the-badge&logo=shield&logoColor=white)
+
 <p align="center">
   <img src="assets/network-diagram.png" width="100%" title="VPN Network Architecture">
 </p>
